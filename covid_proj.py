@@ -8,7 +8,10 @@ mydb=mysql.connector.connect(
 )
 mycursor=mydb.cursor()
 #--------------------------------------------------------
-
+#mycursor.execute("create database covid_19")
+#mycursor.execute("create table covid19_result(country varchar(50),state varchar(40),state_positive int,state_negative int)")
+#mycursor.execute("create table country(region varchar(40),population int,covid_cases int,covid_deathcase int,recover_case int)")
+#mycursor.execute("create table covid_data(name varchar(100),age int,gender varchar(25),city varchar(40),covid_result varchar(10))")
 def menu():
     print("--------------------------")
     print("------MENUS---------------")
