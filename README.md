@@ -29,4 +29,21 @@ topics:
         *cancel the ticket / delete the ticket data.
 
         *view a set of Train data.
+        
+3. ATM :
+    About ATM:
+        
+        *Insert the user detalis first
+        
+        *View the user details 
+        
+        *Withdrawl amount 
+        
+        *Deposit amount
+        
+        *Delete user details 
+        
+        
+        
+        
  
